@@ -6,8 +6,8 @@ Escrever um programa que leia um inteiro não negativo n e imprima a soma dos n 
 def test_primo(n):
     if n == 1:  # 1 não é número primo
         return False
-    for v in range(2, (int(n/2)+1)):  # Devomos procurar um dividsor de 2 até a metade do número.
-        if n % v == 0:  # Se existir algum número divisor de 2, até a metade do número, não é prim!
+    for v in range(2, (int(n/2)+1)):  # Devemos procurar um dividsor de 2 até a metade do número.
+        if n % v == 0:  # Se existir algum número divisor de 2, até a metade do número, não é primo!
             return False
     else:
         return True
